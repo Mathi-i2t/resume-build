@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  backend:
+    # container_name: backend
+    image: "demo:2.1"
+    ports:
+      - 8080:8080
+
+  frontend:
+    # container_name: frontend
+    image: "test:1.1"
+    ports:
+      - 4200:80
+

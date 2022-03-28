@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #753904;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.resume {
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  margin: 8%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 0.8fr 2.3fr;
+}
+
+.resume .resume_left {
+  position: relative;
+  background: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.profile_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.profile_box .image_box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.profile_box .image_box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile_box .name {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.profile_box .heading {
+  margin-bottom: 20px;
+}
+
+.info {
+  text-align: left;
+  padding: 10px;
+}
+
+.info ul li {
+  position: relative;
+  list-style: none;
+  margin: 13px 0;
+}
+
+.info ul li .icon {
+  display: inline-block;
+  width: 20px;
+  color: #d3d3d3;
+}
+
+.info ul li .text {
+  font-size: 14px;
+  color: #00008b;
+  font-weight: 600;
+}
+
+.button {
+  text-align: left;
+  margin-top: 45px;
+}
+
+.button .download {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  background: #0000ff;
+}
+
+.resume .resume_right {
+  position: relative;
+  background: #ffffff;
+  text-align: left;
+  margin: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+.summary,
+.experience {
+  margin-bottom: 13%;
+}
+
+.summary .about {
+  line-height: 1.7;
+  margin-top: 20px;
+}
+
+.role, .degree{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line {
+  border-bottom: 1px solid #e9e7e7;
+}
+
+h1 {
+  color: #00008b;
+  font-family: "Poppins", sans-serif;
+}
+
+.experience .role .job {
+  text-align: right;
+}
+
+.full_time {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  color: #00008b;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  background: #d5f8df;
+  float: right;
+}
+
+.building,
+.university,
+.location_one,
+.location_two,
+.location_three,
+.date {
+  color: #c1cdda;
+}
+
+.location_one {
+  margin-left: 30px;
+}
+
+.location_two {
+  margin-left: 64px;
+}
+
+.location_three {
+  margin-left: 38px;
+}
+
+.date {
+  float: right;
+}
+
+.heading {
+  font-size: 22px;
+  color: #0606af;
+}
+
+p {
+  color: #0606af;
+}
+
+.experience .role .info,
+.degree .info {
+  font-weight: 550;
+}
+
+.details {
+  padding-top: 15px;
+  text-align: left;
+  padding-bottom: 25px;
+}
